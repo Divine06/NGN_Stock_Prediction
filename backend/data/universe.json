@@ -1,0 +1,54 @@
+{
+  "companies": {
+    "AIRTELAFRI": {
+      "name": "Airtel Africa",
+      "sector": "Telecommunications",
+      "news_query": "\"Airtel Africa\""
+    },
+    "BUACEMENT": {
+      "name": "BUA Cement",
+      "sector": "Industrial Goods",
+      "news_query": "\"BUA Cement\""
+    },
+    "DANGCEM": {
+      "name": "Dangote Cement",
+      "sector": "Industrial Goods",
+      "news_query": "\"Dangote Cement\""
+    },
+    "GTCO": {
+      "name": "Guaranty Trust Holding Company",
+      "sector": "Financial Services",
+      "news_query": "\"GTCO\" OR \"Guaranty Trust Holding\""
+    },
+    "MTNN": {
+      "name": "MTN Nigeria",
+      "sector": "Telecommunications",
+      "news_query": "\"MTN Nigeria\""
+    },
+    "NESTLE": {
+      "name": "Nestle Nigeria",
+      "sector": "Consumer Goods",
+      "news_query": "\"Nestle Nigeria\""
+    },
+    "UBA": {
+      "name": "United Bank for Africa",
+      "sector": "Financial Services",
+      "news_query": "\"United Bank for Africa\""
+    },
+    "TOTAL": {
+      "name": "TotalEnergies Marketing Nigeria",
+      "sector": "Oil and Gas",
+      "news_query": "\"TotalEnergies Marketing Nigeria\" OR \"TotalEnergies Nigeria\""
+    },
+    "UNILEVER": {
+      "name": "Unilever Nigeria",
+      "sector": "Consumer Goods",
+      "news_query": "\"Unilever Nigeria\""
+    },
+    "ZENITHBANK": {
+      "name": "Zenith Bank",
+      "sector": "Financial Services",
+      "news_query": "\"Zenith Bank\""
+    }
+  }
+}

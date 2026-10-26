@@ -1,0 +1,20 @@
+{
+  "ticker": "SEPLAT",
+  "trained_at": "2026-10-23T09:50:12+01:00",
+  "coverage": {
+    "rows": 202,
+    "first_date": "2026-01-02",
+    "last_date": "2026-10-22",
+    "sources": {
+      "ngx_history": 202
+    },
+    "gaps_over_limit": [],
+    "large_jumps": 0,
+    "latest_segment_rows": 202,
+    "latest_segment_start": "2026-01-02"
+  },
+  "usable_rows": 148,
+  "data_quality": "OK",
+  "status": "INSUFFICIENT_DATA",
+  "reason": "148 usable trading days; need at least 310"
+}
