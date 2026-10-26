@@ -390,9 +390,7 @@ function App() {
               <small>{marketStatus.message}</small>
             </span>
           </div>
-          <span className="feed-pill" title={feed.note || "Prices are delayed by about 20–30 minutes"}>
-            <span className="feed-dot" /> {feed.source || "Live feed"} · delayed
-          </span>
+         
           <button className="button button-secondary refresh-button" type="button" onClick={forceRefresh} disabled={refreshing}>
             <span className={refreshing ? "refresh-symbol spinning" : "refresh-symbol"}>↻</span>
             {refreshing ? "Updating…" : "Refresh prices"}
@@ -467,7 +465,7 @@ function App() {
             })}
             {!filteredStocks.length && <div className="empty-list"><strong>No matching companies</strong><p>Try another company name or ticker symbol.</p></div>}
           </div>
-          <div className="watchlist-footer"><span className="footer-dot" /> Prices are delayed by about 20–30 minutes. Forecasts are for the next trading session and are not financial advice.</div>
+          <div className="watchlist-footer"><span className="footer-dot" /> Forecasts are for the next trading session.</div>
         </aside>
 
         <div className="main-column">
