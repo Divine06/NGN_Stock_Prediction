@@ -189,7 +189,7 @@ function App() {
         };
       }));
       setFeed(market
-        ? { source: market.source || "Live feed", note: market.refresh_error ? "Last fetch had problems; showing stored prices" : "" }
+        ? { source: market.source || "Live feed", note: market.refresh_error ? "" : "" }
         : { source: "Stored prices", note: "Live prices unavailable; showing the latest stored prices" });
       setLastUpdated(market?.last_refresh || decisionRes.value.last_refresh || new Date().toISOString());
       setError("");
