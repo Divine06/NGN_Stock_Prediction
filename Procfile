@@ -1,0 +1,1 @@
+   web: uvicorn backend.api.main_ml:app --host 0.0.0.0 --port $PORT
