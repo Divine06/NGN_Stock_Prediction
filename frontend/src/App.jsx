@@ -500,13 +500,7 @@ function App() {
                   </div>
                 </div>
 
-                {warning && (
-                  <div className="data-warning" role="note">
-                    <span className="data-warning-mark">!</span>
-                    <p>{warning}</p>
-                  </div>
-                )}
-
+            
                 <div className="metrics-grid">
                   <article className="metric-card featured-metric">
                     <span className="metric-label">Predicted next close</span>
@@ -706,9 +700,6 @@ function App() {
                     </div>
                     {decision.prediction_created_at && <small className="block-meta">Computed {new Date(decision.prediction_created_at).toLocaleString("en-NG", { dateStyle: "medium", timeStyle: "short" })}</small>}
                   </div>
-                  <ul className="reason-list">
-                    {evidence.map((e, i) => <li key={i} className={e === warning ? "reason-warning" : ""}>{e}</li>)}
-                  </ul>
                 </div>
 
                 <div className="estimate-info">
