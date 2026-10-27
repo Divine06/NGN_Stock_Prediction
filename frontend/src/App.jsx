@@ -96,7 +96,7 @@ function getNGXMarketStatus() {
   return {
     isOpen,
     label: isOpen ? "MARKET OPEN" : "MARKET CLOSED",
-    message: isOpen ? "Prices update every 20 minutes" : "NGX trades 09:00–4:00 WAT, Mon–Fri",
+    message: isOpen ? "NGX trades 09:00–4:00 WAT, Mon–Fri",
   };
 }
 
