@@ -7,7 +7,7 @@ backend/data/features/.
 
 Supported companies:
 AIRTELAFRI, BUACEMENT, DANGCEM, GTCO, MTNN,
-NESTLE, SEPLAT, TOTAL, UNILEVER, ZENITHBANK
+NESTLE, TOTAL, UBA, UNILEVER, ZENITHBANK
 
 Important:
 - Keeps the newest available historical records.
@@ -50,8 +50,8 @@ COMPANIES = [
     "GTCO",
     "MTNN",
     "NESTLE",
-    "SEPLAT",
     "TOTAL",
+    "UBA",
     "UNILEVER",
     "ZENITHBANK",
 ]

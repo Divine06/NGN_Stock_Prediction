@@ -12,7 +12,7 @@ DB_PATH = os.path.join(BASE_DIR, "ngx.db")
 COMPANIES = {
     "ZENITHBANK": ("Zenith Bank",       "Banking"),
     "GTCO":       ("GT Bank",           "Banking"),
-    "SEPLAT":     ("Seplat Energy",     "Oil and Gas"),
+    "UBA":        ("United Bank for Africa", "Financial Services"),
     "TOTAL":      ("Total Energies",    "Oil and Gas"),
     "NESTLE":     ("Nestle Nigeria",    "FMCG"),
     "UNILEVER":   ("Unilever Nigeria",  "FMCG"),

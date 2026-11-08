@@ -26,8 +26,8 @@ COMPANIES = [
     "GTCO",
     "MTNN",
     "NESTLE",
-    "SEPLAT",
     "TOTAL",
+    "UBA",
     "UNILEVER",
     "ZENITHBANK",
 ]

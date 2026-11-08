@@ -13,7 +13,7 @@ COMPANIES = {
     "GTCO": "GTCO",
     "MTNN": "MTN Nigeria",
     "NESTLE": "Nestle Nigeria",
-    "SEPLAT": "Seplat Energy",
+    "UBA": "United Bank for Africa",
     "TOTAL": "TotalEnergies Nigeria",
     "UNILEVER": "Unilever Nigeria",
     "ZENITHBANK": "Zenith Bank"
